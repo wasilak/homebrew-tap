@@ -1,5 +1,5 @@
 class ElasticsearchRerouteShards < Formula
-  desc "Elasticsearch shard rebalancing tool (based on size, not number of them per node)"
+  desc "Elasticsearch shard rebalancing tool"
   homepage "https://github.com/wasilak/elasticsearch-reroute-shards"
 
   if OS.mac?
