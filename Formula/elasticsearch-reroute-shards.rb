@@ -5,22 +5,22 @@ class ElasticsearchRerouteShards < Formula
 
   if OS.mac?
     url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/0.0.3/elasticsearch-reroute-shards-darwin-amd64.zip"
-    sha256 "e79f45985d3c0b380f58b70df1b6cbecffccc2ade5d40b0dcbe93afb33ce2054"
+    sha256 "727d085025b755f2c5dfc58d6de5e50894960a0fcd5b819b0eb18f4e80646af2"
   end
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/0.0.3/elasticsearch-reroute-shards-darwin-arm64.zip"
-    sha256 "6c2886cc64003397eb7231d5c26749dddab03a11de58fd64479d6231965b691c"
+    sha256 "fadb09604ce0917068b56415aeda4a88662424347c73389f9fb4defa35cc4b1e"
   end
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/0.0.3/elasticsearch-reroute-shards-linux-amd64.zip"
-    sha256 "a2fdad85e2f5399ad47240a2d2b0392979daf072332a37cc5e2acd9b437d9bf5"
+    sha256 "d69760239ddf77d43cb252eeef2308e3576a0c9029f2cf0e146ba75056dbe210"
   end
 
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/0.0.3/elasticsearch-reroute-shards-linux-arm64.zip"
-    sha256 "18a8ad114016ee4f252cbd1b4ed09f4012b36a8464e7249e1d0bbf7a95411ffb"
+    sha256 "8b036f00e7bc249a0f02615088b5c74d9cd8fb6e95f4dbd45f23643856c98738"
   end
 
   # if OS.linux? && Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
