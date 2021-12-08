@@ -1,6 +1,7 @@
 class ElasticsearchRerouteShards < Formula
   desc "Elasticsearch shard rebalancing tool"
   homepage "https://github.com/wasilak/elasticsearch-reroute-shards"
+  version "0.0.3"
 
   if OS.mac?
     url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/0.0.3/elasticsearch-reroute-shards-darwin-amd64.zip"
