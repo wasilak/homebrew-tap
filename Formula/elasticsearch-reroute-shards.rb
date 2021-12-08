@@ -32,6 +32,6 @@ class ElasticsearchRerouteShards < Formula
   end
 
   test do
-    system "#{bin}/elasticsearch-reroute-shards --version"
+    system "#{bin}/elasticsearch-reroute-shards", "--version"
   end
 end
