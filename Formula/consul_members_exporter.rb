@@ -5,22 +5,22 @@ class ConsulMembersExporter < Formula
 
   if OS.mac?
     url "https://github.com/wasilak/consul_members_exporter/releases/download/0.0.3/consul_members_exporter-darwin-amd64.zip"
-    sha256 "1c27f9dcd73c2a19e18aa3c54d76914b68143705aa53c4d4bc19fd83e5215da9"
+    sha256 "b04a8e3134be5a913d82e8f9b98bf0d73ae7e43f58948347910b362a34e93ea3"
   end
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/wasilak/consul_members_exporter/releases/download/0.0.3/consul_members_exporter-darwin-arm64.zip"
-    sha256 "5b93d1e7b7a709bee18e95e6fa10b10c46102b9de76695d57ac9327a091b8b72"
+    sha256 "dbc00d4f3362b232215b3a0e03b7af6fb5d3ea5ab1bfe96f6b7a7f9ef36ac5c3"
   end
 
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/wasilak/consul_members_exporter/releases/download/0.0.3/consul_members_exporter-linux-amd64.zip"
-    sha256 "8bd75a65cc9ca2be696e74b477383e0dbe0d22ae2ab6dbbb55a29af1d03f2a02"
+    sha256 "f40df54bc282c085a0b2944e9911bdeccc3f914f2744cc5c7c10c8a9e97ab1bd"
   end
 
   if OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://github.com/wasilak/consul_members_exporter/releases/download/0.0.3/consul_members_exporter-linux-arm64.zip"
-    sha256 "1cc782dd58c04d88779e4af490388596804767ce3d36573f4253ce4f81c16067"
+    sha256 "e6c986ed048a39f27d6216c5fc6e5c0ca9f4784d9f8ef3070351470e116acbf5"
   end
 
   # if OS.linux? && Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
@@ -29,10 +29,10 @@ class ConsulMembersExporter < Formula
   # end
 
   def install
-    bin.install "elasticsearch-reroute-shards"
+    bin.install "consul_members_exporter"
   end
 
   test do
-    system "#{bin}/elasticsearch-reroute-shards", "--version"
+    system "#{bin}/consul_members_exporter", "--version"
   end
 end
