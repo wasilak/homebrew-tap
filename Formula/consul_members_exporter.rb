@@ -4,8 +4,8 @@ class ConsulMembersExporter < Formula
   version "0.0.3"
 
   if OS.mac?
-    url "https://github.com/wasilak/consul_members_exporter/releases/download/0.0.3/consul_members_exporter-darwin-amd64.zip"
-    sha256 "b04a8e3134be5a913d82e8f9b98bf0d73ae7e43f58948347910b362a34e93ea3"
+    url "https://github.com/wasilak/consul_members_exporter/archive/refs/tags/0.0.4.tar.gz"
+    sha256 "e4c8df272d56119ca21359e83ff9abf90b8530e19aaadfaccec7b39bd5bec9f0"
   end
 
   if OS.mac? && Hardware::CPU.arm?
