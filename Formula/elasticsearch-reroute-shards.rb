@@ -4,8 +4,8 @@ class ElasticsearchRerouteShards < Formula
   version "1.0.0"
 
   if OS.mac?
-    url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/v1.0.0/elasticsearch-reroute-shards-darwin-amd64.zip"
-    sha256 "7e49326ea7bb38c49d33a60f13b311a01f16ca3ef222d1563292f978905ced13"
+    url "https://github.com/wasilak/elasticsearch-reroute-shards/archive/refs/tags/v1.0.1.tar.gz"
+    sha256 "fac8ef4d8661b53b7d995637950f68abc6e847acd95ef723cce8824582896218"
   end
 
   if OS.mac? && Hardware::CPU.arm?
