@@ -29,7 +29,7 @@ class NimCli < Formula
   conflicts_with "nim", because: "both install a 'nim' binary"
 
   def install
-    bin.install "nim"
+    bin.install Dir["nim-*"].first => "nim"
     generate_completions_from_executable(bin/"nim", "completion")
   end
 
