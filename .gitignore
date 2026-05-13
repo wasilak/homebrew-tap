@@ -1,0 +1,6 @@
+bottle_output.txt
+linkage_output.txt
+steps_output.txt
+skipped_or_failed_formulae-*.txt
+*.bottle.tar.gz
+*.bottle.json
