@@ -22,9 +22,7 @@
         "gomod"
       ],
       "postUpdateOptions": [
-        {
-          "gomodTidy": true
-        }
+        "gomodTidy"
       ]
     }
   ]
