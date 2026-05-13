@@ -6,8 +6,8 @@ class ConsulMembersExporter < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/wasilak/consul_members_exporter/releases/download/0.0.3/consul_members_exporter-darwin-arm64.zip"
-      sha256 "dbc00d4f3362b232215b3a0e03b7af6fb5d3ea5ab1bfe96f6b7a7f9ef36ac5c3"
+      url "https://github.com/wasilak/consul_members_exporter/archive/refs/tags/0.0.4.tar.gz"
+      sha256 "e4c8df272d56119ca21359e83ff9abf90b8530e19aaadfaccec7b39bd5bec9f0"
     end
   end
 
