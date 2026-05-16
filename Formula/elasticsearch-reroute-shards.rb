@@ -1,7 +1,7 @@
 class ElasticsearchRerouteShards < Formula
   desc "Elasticsearch shard rebalancing tool"
   homepage "https://github.com/wasilak/elasticsearch-reroute-shards"
-  version "v1.0.1"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
