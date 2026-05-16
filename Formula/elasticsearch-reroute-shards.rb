@@ -6,23 +6,23 @@ class ElasticsearchRerouteShards < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/wasilak/elasticsearch-reroute-shards/archive/refs/tags/v1.0.1.tar.gz"
-      sha256 "fac8ef4d8661b53b7d995637950f68abc6e847acd95ef723cce8824582896218"
+      url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/v1.0.1/elasticsearch-reroute-shards-darwin-amd64.zip"
+      sha256 "54cb936824a2262e22d56f30c47081bfd4c7c4e253bbab641150e25ef80de3b7"
     end
     on_arm do
       url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/v1.0.1/elasticsearch-reroute-shards-darwin-arm64.zip"
-      sha256 "e371a1bba33eaf369ce379f336732f5f7bdce5f3df51234afb03c1975f52a082"
+      sha256 "a5c279e27dbe1ef804873eb0b052a8785d2bc2cab00c3ff5512383a960b29b6e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/v1.0.1/elasticsearch-reroute-shards-linux-amd64.zip"
-      sha256 "39c2a6f5ac7eeb4f1102f53ae877ec2d6d9977b1c122b9512dac4b56bc235846"
+      sha256 "d7b927bd7565dccfb62b0d783f0c6ea915e558a295076e081a01854351825836"
     end
     on_arm do
       url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/v1.0.1/elasticsearch-reroute-shards-linux-arm64.zip"
-      sha256 "18a00e9ab8a58a999fcfcc4ef121af6c23f6c07f489005c350c3016d94c4e328"
+      sha256 "94c9f095b8276019acd0a9577c5e2a514fafaca8e5a964c7d82cb3e611738412"
     end
   end
 
