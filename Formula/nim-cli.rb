@@ -1,28 +1,28 @@
 class NimCli < Formula
   desc "Declarative dotfiles management tool with Terraform-inspired plan/apply workflow"
   homepage "https://github.com/wasilak/nim"
-  version "0.14.0"
+  version "0.15.0"
   license "GPL-3.0-only"
 
   on_macos do
     on_intel do
-      url "https://github.com/wasilak/nim/releases/download/v0.14.0/nim-darwin-amd64.zip"
-      sha256 "d88398c0aaa7652e829e58a883ca83ecd0959042966edc1add38bac7bb6faad9"
+      url "https://github.com/wasilak/nim/releases/download/v0.15.0/nim-darwin-amd64.zip"
+      sha256 "168d2c28fb92c9e145e94785788b0e3d1c69323caef7bc369e44d2319d239fb4"
     end
     on_arm do
-      url "https://github.com/wasilak/nim/releases/download/v0.14.0/nim-darwin-arm64.zip"
-      sha256 "36e72c85dd35a6a400f264ff531787936d19b677a034d4ef2f92ee6308c19b72"
+      url "https://github.com/wasilak/nim/releases/download/v0.15.0/nim-darwin-arm64.zip"
+      sha256 "adbb20a41693d8334f856e442e5b0ddc6af78469b8d4ac7aa651b32696775ed4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/wasilak/nim/releases/download/v0.14.0/nim-linux-amd64.zip"
-      sha256 "848700e64e6f8206b755ee04560c5bbd32977065d31464dbfba25ebfea09ce8e"
+      url "https://github.com/wasilak/nim/releases/download/v0.15.0/nim-linux-amd64.zip"
+      sha256 "77d162c0813835fa575ee7e62414dd0bdf120c1862be9a676ba5e8fe3b38f70b"
     end
     on_arm do
-      url "https://github.com/wasilak/nim/releases/download/v0.14.0/nim-linux-arm64.zip"
-      sha256 "b378522cd399977e3563a2d792537965a0dc67b6f5cf75e605b69e2ba8dd4cb0"
+      url "https://github.com/wasilak/nim/releases/download/v0.15.0/nim-linux-arm64.zip"
+      sha256 "89dde3fad2effd960368e1b63e793daec72ff781f4d3d149911f88474675d689"
     end
   end
 
