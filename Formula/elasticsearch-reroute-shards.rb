@@ -1,13 +1,13 @@
 class ElasticsearchRerouteShards < Formula
   desc "Elasticsearch shard rebalancing tool"
   homepage "https://github.com/wasilak/elasticsearch-reroute-shards"
-  version "1.0.1"
+  version "v1.0.1"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/v1.0.1/elasticsearch-reroute-shards-darwin-amd64.zip"
-      sha256 "54cb936824a2262e22d56f30c47081bfd4c7c4e253bbab641150e25ef80de3b7"
+      sha256 "03e33ae4c6d9c1d9a9e147dc4a4d96928ca7a91d3a422481d15a072edf7c53f1"
     end
     on_arm do
       url "https://github.com/wasilak/elasticsearch-reroute-shards/releases/download/v1.0.1/elasticsearch-reroute-shards-darwin-arm64.zip"
