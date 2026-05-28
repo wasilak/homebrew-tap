@@ -1,5 +1,5 @@
 class Elastauth < Formula
-  desc "forwardAuth proxy for Kibana providing integration for LDAP"
+  desc "ForwardAuth proxy for Kibana providing integration for LDAP"
   homepage "https://github.com/wasilak/elastauth"
   version "1.2.2"
   license "MIT"

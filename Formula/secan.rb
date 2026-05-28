@@ -1,5 +1,5 @@
 class Secan < Formula
-  desc "Modern Elasticsearch cluster management tool. Built with Rust and React. Inspired by Cerebro"
+  desc "Modern Elasticsearch cluster management tool inspired by Cerebro"
   homepage "https://github.com/wasilak/secan"
   version "0.1.11"
   license "AGPL-3.0-only"
