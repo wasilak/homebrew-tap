@@ -6,8 +6,8 @@ class NimCli < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/wasilak/nim/archive/refs/tags/v0.17.0.tar.gz"
-      sha256 "cb9163a0e8481c858ac88097a6c547bef47b9ff67e57a584deae9830021c6e73"
+      url "https://github.com/wasilak/nim/releases/download/v0.18.0/nim-darwin-amd64.zip"
+      sha256 "6e80e598d2188a29f428d5ad9af5eb89fcf19ddf2c1cb2ee8de43f53ae9eee50"
     end
     on_arm do
       url "https://github.com/wasilak/nim/releases/download/v0.18.0/nim-darwin-arm64.zip"
