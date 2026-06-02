@@ -32,6 +32,9 @@ jobs:
 
       - run: brew test-bot --only-cleanup-before
 
+      - name: Trust tap
+        run: brew trust wasilak/tap
+
       - run: brew test-bot --only-setup
 
       - run: brew test-bot --only-tap-syntax
