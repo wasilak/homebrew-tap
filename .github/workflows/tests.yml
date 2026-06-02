@@ -31,6 +31,10 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: brew install-bundler-gems
 
+      - name: Remove pre-installed taps that break brew doctor
+        if: runner.os == 'macOS'
+        run: brew untap hashicorp/tap aws/tap || true
+
       - run: brew test-bot --only-cleanup-before
 
       - run: brew test-bot --only-setup
