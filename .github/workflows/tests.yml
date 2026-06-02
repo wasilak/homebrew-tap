@@ -31,9 +31,9 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: brew install-bundler-gems
 
-      - name: Remove pre-installed taps that break brew doctor
+      - name: Remove broken formulae from pre-installed taps
         if: runner.os == 'macOS'
-        run: brew untap --force hashicorp/tap aws/tap || true
+        run: rm -f "$(brew --prefix)/Library/Taps/hashicorp/homebrew-tap/Formula/vagrant.rb" || true
 
       - run: brew test-bot --only-cleanup-before
 
