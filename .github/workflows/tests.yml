@@ -12,6 +12,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     env:
       HOMEBREW_NO_SANDBOX_LINUX: 1
+      HOMEBREW_NO_REQUIRE_TAP_TRUST: 1
     steps:
       - name: Set up Homebrew
         id: set-up-homebrew
@@ -31,9 +32,6 @@ jobs:
         run: brew install-bundler-gems
 
       - run: brew test-bot --only-cleanup-before
-
-      - name: Trust tap
-        run: brew trust wasilak/tap
 
       - run: brew test-bot --only-setup
 
