@@ -5,8 +5,8 @@ class GoDht < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/wasilak/go-dht/releases/download/v0.0.10/go-dht-darwin-amd64.zip"
-      sha256 "df29fc73ccdac9ec8309821378dabefc171b04e5b645702410f48a9a1ece3c4e"
+      url "https://github.com/wasilak/go-dht/archive/refs/tags/v0.0.11.tar.gz"
+      sha256 "4e3b820a9118d753fac0d7d334ae2b0c382ef513cd78bb0799fd720aebd5d193"
     end
     on_arm do
       url "https://github.com/wasilak/go-dht/releases/download/v0.0.10/go-dht-darwin-arm64.zip"
