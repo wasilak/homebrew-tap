@@ -1,7 +1,6 @@
 class ExternalSecretExplain < Formula
   desc "CLI tool for explaining Kubernetes ExternalSecret resources"
   homepage "https://github.com/wasilak/external-secret-explain"
-  version "0.1.0"
   license "GPL-3.0-only"
 
   on_macos do

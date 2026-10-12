@@ -1,7 +1,6 @@
 class GoDht < Formula
   desc "DHT11/DHT22 Prometheus exporter"
   homepage "https://github.com/wasilak/go-dht"
-  version "0.0.11"
 
   on_macos do
     on_intel do

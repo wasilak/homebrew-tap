@@ -1,7 +1,6 @@
 class Secan < Formula
   desc "Modern Elasticsearch cluster management tool inspired by Cerebro"
   homepage "https://github.com/wasilak/secan"
-  version "0.1.11"
   license "AGPL-3.0-only"
 
   on_macos do

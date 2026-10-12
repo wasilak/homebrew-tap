@@ -1,7 +1,6 @@
 class NimCli < Formula
   desc "Declarative dotfiles management tool with Terraform-inspired plan/apply workflow"
   homepage "https://github.com/wasilak/nim"
-  version "0.23.0"
   license "GPL-3.0-only"
 
   on_macos do

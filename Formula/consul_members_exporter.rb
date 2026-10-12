@@ -1,7 +1,6 @@
 class ConsulMembersExporter < Formula
   desc "Consul members exporter"
   homepage "https://github.com/wasilak/consul_members_exporter"
-  version "0.0.4"
   license "MIT"
 
   on_macos do
